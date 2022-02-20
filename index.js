@@ -6,7 +6,7 @@ let millisecondElement = document.querySelector("#milliseconds");
 
 // Button variables
 let startButton = document.querySelector("#btn-start");
-let pauseButton = document.querySelector("#btn-pause");
+let stopButton = document.querySelector("#btn-stop");
 let resetButton = document.querySelector("#btn-reset");
 
 // Counter Variable
@@ -22,7 +22,7 @@ startButton.onclick  = function() {
     clearInterval(interval); // If Some Error Happen and Interval is Setup, It Will Clear That Interval
     interval = setInterval(startTimer, 10); // 
 };
-pauseButton.onclick = function() { 
+stopButton.onclick = function() { 
     clearInterval(interval); // On Clicking Pause Buttom We Will Clear Interval
 };
 resetButton.onclick = function() {
