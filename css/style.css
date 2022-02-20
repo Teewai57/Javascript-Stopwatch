@@ -49,6 +49,9 @@ p{
         font-size: 20px;
     }
     button{
-        font-size: 15px !important;
+        font-size: 10px !important;
+    }
+    .btn{
+        padding: 6px 17px;
     }
 }
