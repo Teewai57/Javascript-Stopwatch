@@ -3,6 +3,7 @@
     padding: 0;
 }
 body{
+    font-family: 'Redressed', cursive;
     background-color: rgb(4, 4, 37);
 }
 .container{
@@ -43,6 +44,8 @@ p{
     text-align: center;
     justify-content: center;
     margin: 15px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 @media (max-width:425px) {
     h1{
